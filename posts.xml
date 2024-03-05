@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<posts>
+    <post>
+        <author>Bulsu Capture</author>
+        <displayPicture>images/bulsu.jpg</displayPicture>
+        <postPicture>images/batibot.jpg</postPicture>
+        <caption>
+            May we have the life that we are aiming to have. Laban lang. 🫶🏻❤️
+            Admin Batibot | Content Creator
+        </caption>
+        <reactions>1.8k</reactions>
+        <comments>24</comments>
+        <shares>633</shares>
+    </post>
+    <post>
+        <author>Stoic Qoutes</author>
+        <displayPicture>images/stoic.jpg</displayPicture>
+        <postPicture>images/marcus.jpg</postPicture>
+        <reactions>1.2k</reactions>
+        <comments>41</comments>
+        <shares>266</shares>
+    </post>
+    <post>
+        <author>Boiling Waters</author>
+        <displayPicture>images/boiling.jpg</displayPicture>
+        <postPicture>images/libre.jpg</postPicture>
+        <caption>
+            Hey, grow up! Listen to our latest episode on 🎧 spotify.com/BoilingWatersPH
+        </caption>
+        <reactions>2.5k</reactions>
+        <comments>238</comments>
+        <shares>298</shares>
+    </post>
+    <post>
+        <author>Artruth</author>
+        <displayPicture>images/artruth.jpg</displayPicture>
+        <postPicture>images/darkness.jpg</postPicture>
+        <caption>
+            @lauraklinke_art
+        </caption>
+        <reactions>221</reactions>
+        <comments>4</comments>
+        <shares>8</shares>
+    </post>
+    <post>
+        <author>Fiba</author>
+        <displayPicture>images/fiba.png</displayPicture>
+        <postPicture>images/kd.jpg</postPicture>
+        <caption>
+            New KD 17s are 🔥
+            📸 Nike
+        </caption>
+        <reactions>5.7k</reactions>
+        <comments>178</comments>
+        <shares>1.7k</shares>
+    </post>
+</posts>
