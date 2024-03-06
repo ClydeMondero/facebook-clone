@@ -2,12 +2,23 @@
     <xsl:template match="/">
         <html>
             <body>
-            <xsl:attribute name="style">margin: 0; padding: 0; font-family: sans-serif; font-weight: 400</xsl:attribute>
-                <xsl:for-each select="posts/post">
+                <xsl:attribute name="style">margin: 0; padding: 0; font-family: sans-serif; font-weight: 400</xsl:attribute>
                     <div id="wrapper">
-                        <xsl:attribute name="style">display: flex; justify-content: center; align-items: center; flex-direction: column; padding: 1.8rem; background-color: F6F5F5</xsl:attribute>
+                        <xsl:attribute name="style">display: flex; justify-content: center; align-items: center; flex-direction: column; background-color: F6F5F5</xsl:attribute>
+                        <div>
+                            <xsl:attribute name="style">height: 80px; width: 100%; background-color: black; color: white;</xsl:attribute>
+                            <h1>
+                            <xsl:attribute name="style">margin-left: 4rem;</xsl:attribute>
+                            LinkUp
+                            </h1>
+                        </div>
+                        <div>
+                            <xsl:attribute name="style">display: flex; justify-content start; align-items: center; font-weight: 400; color: rgba(0,0,0,0.2); height: .8rem; width: 50%; padding: 1.3rem; border-radius: 50px; margin-top: 1rem; background-color: white; box-shadow:3px 3px 20px rgba(0,0,0,0.2);</xsl:attribute>
+                            <h4>New Post</h4>
+                        </div>
+                        <xsl:for-each select="posts/post">
                         <div id="content">
-                            <xsl:attribute name="style">height: 50%; width: 50%; background-color: white; border-radius: 1.5rem; box-shadow: 5px 5px 30px rgba(0,0,0,0.2);</xsl:attribute>
+                            <xsl:attribute name="style">height: 55%; width: 55%; background-color: white; border-radius: 1.5rem; box-shadow:3px 3px 20px rgba(0,0,0,0.2); margin-top: 1.5rem;</xsl:attribute>
                             <div id="user-profile">
                                 <xsl:attribute name="style">display:flex; justify-content: start; align-items: center;</xsl:attribute>
                                 <img>
@@ -19,9 +30,9 @@
                                 <h4><xsl:value-of select="author"/></h4>
                             </div>
                             <div>
-                                <xsl:attribute name="style">width: 100%; display: flex; justify-content: center; align-items: center;</xsl:attribute>
+                                <xsl:attribute name="style">width: 100%; height: 40px; display: flex; justify-content: center; align-items: center;</xsl:attribute>
                                 <h4>
-                                    <xsl:attribute name="style">font-weight: 500;</xsl:attribute>
+                                    <xsl:attribute name="style">font-weight: 500; font-size: 1rem; text-align: center; padding-bottom: 1rem;</xsl:attribute>
                                     <xsl:value-of select="caption"/>
                                 </h4>
                             </div>
@@ -31,11 +42,11 @@
                                     <xsl:attribute name="src">
                                         <xsl:value-of select="postPicture"/>
                                     </xsl:attribute>
-                                    <xsl:attribute name="style">height: 30%; width: 70%; padding: 1.3rem;</xsl:attribute>
+                                    <xsl:attribute name="style">height: 30%; width: 80%;</xsl:attribute>
                                 </img>
                             </div>
                             <div id="buttons">
-                                <xsl:attribute name="style">display: flex; justify-content: space-between; align-items:center; padding: 1rem</xsl:attribute>
+                                <xsl:attribute name="style">height: 3rem; display: flex; justify-content: space-between; align-items: center; padding: 0.5rem 1.5rem 0.5rem 1.5rem</xsl:attribute>
                                 <div id="left">
                                     <xsl:attribute name="style">display: flex; justify-content: space-between; align-items:center;</xsl:attribute>
                                     <img>
@@ -80,8 +91,8 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </xsl:for-each>
+                    </xsl:for-each>
+                </div>
             </body>
         </html>
     </xsl:template>
