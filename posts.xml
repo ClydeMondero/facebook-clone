@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="posts.xsl"?>
+
 <posts>
     <post>
         <author>Bulsu Capture</author>
         <displayPicture>images/bulsu.jpg</displayPicture>
         <postPicture>images/batibot.jpg</postPicture>
         <caption>
-            May we have the life that we are aiming to have. Laban lang. 🫶🏻❤️
-            Admin Batibot | Content Creator
+            May we have the life that we are aiming to have. Laban lang!
         </caption>
+        <reaction-icon>images/heart.png</reaction-icon>
+        <comment-icon>images/speech-bubble.png</comment-icon>
+        <share-icon>images/share.png</share-icon>
         <reactions>1.8k</reactions>
         <comments>24</comments>
         <shares>633</shares>
@@ -16,6 +20,9 @@
         <author>Stoic Qoutes</author>
         <displayPicture>images/stoic.jpg</displayPicture>
         <postPicture>images/marcus.jpg</postPicture>
+        <reaction-icon>images/heart.png</reaction-icon>
+        <comment-icon>images/speech-bubble.png</comment-icon>
+        <share-icon>images/share.png</share-icon>
         <reactions>1.2k</reactions>
         <comments>41</comments>
         <shares>266</shares>
@@ -27,6 +34,9 @@
         <caption>
             Hey, grow up! Listen to our latest episode on 🎧 spotify.com/BoilingWatersPH
         </caption>
+        <reaction-icon>images/heart.png</reaction-icon>
+        <comment-icon>images/speech-bubble.png</comment-icon>
+        <share-icon>images/share.png</share-icon>
         <reactions>2.5k</reactions>
         <comments>238</comments>
         <shares>298</shares>
@@ -38,6 +48,9 @@
         <caption>
             @lauraklinke_art
         </caption>
+        <reaction-icon>images/heart.png</reaction-icon>
+        <comment-icon>images/speech-bubble.png</comment-icon>
+        <share-icon>images/share.png</share-icon>
         <reactions>221</reactions>
         <comments>4</comments>
         <shares>8</shares>
@@ -50,6 +63,9 @@
             New KD 17s are 🔥
             📸 Nike
         </caption>
+        <reaction-icon>images/heart.png</reaction-icon>
+        <comment-icon>images/speech-bubble.png</comment-icon>
+        <share-icon>images/share.png</share-icon>
         <reactions>5.7k</reactions>
         <comments>178</comments>
         <shares>1.7k</shares>
