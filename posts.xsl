@@ -13,12 +13,12 @@
                             </h1>
                         </div>
                         <div>
-                            <xsl:attribute name="style">display: flex; justify-content start; align-items: center; font-weight: 400; color: rgba(0,0,0,0.2); height: .8rem; width: 50%; padding: 1.3rem; border-radius: 50px; margin-top: 1rem; background-color: white; box-shadow:3px 3px 20px rgba(0,0,0,0.2);</xsl:attribute>
+                            <xsl:attribute name="style">display: flex; justify-content start; align-items: center; font-weight: 400; color: rgba(0,0,0,0.2); height: .8rem; width: 50%; min-width: 300px; padding: 1.3rem; border-radius: 25px; margin-top: 1rem; background-color: white; box-shadow:3px 3px 20px rgba(0,0,0,0.2);</xsl:attribute>
                             <h4>New Post</h4>
                         </div>
                         <xsl:for-each select="posts/post">
                         <div id="content">
-                            <xsl:attribute name="style">height: 55%; width: 55%; background-color: white; border-radius: 1.5rem; box-shadow:3px 3px 20px rgba(0,0,0,0.2); margin-top: 1.5rem;</xsl:attribute>
+                            <xsl:attribute name="style">height: 55%; width: 55%; min-width: 350px; background-color: white; border-radius: 1.5rem; box-shadow:3px 3px 50px rgba(0,0,0,0.1); margin-top: 1rem;</xsl:attribute>
                             <div id="user-profile">
                                 <xsl:attribute name="style">display:flex; justify-content: start; align-items: center;</xsl:attribute>
                                 <img>
@@ -32,7 +32,7 @@
                             <div>
                                 <xsl:attribute name="style">width: 100%; height: 40px; display: flex; justify-content: center; align-items: center;</xsl:attribute>
                                 <h4>
-                                    <xsl:attribute name="style">font-weight: 500; font-size: 1rem; text-align: center; padding-bottom: 1rem;</xsl:attribute>
+                                    <xsl:attribute name="style">font-weight: 500; font-size: 1rem; text-align: center; padding: 1rem; padding-bottom: 2rem;</xsl:attribute>
                                     <xsl:value-of select="caption"/>
                                 </h4>
                             </div>
