@@ -3,71 +3,140 @@
 
 <posts>
     <post>
+        <author>Niana Guerero</author>
+        <displayPicture>images/niana.jpeg</displayPicture>
+        <content>videos/niana.mp4</content>
+        <caption>
+            stan bini
+        </caption>
+        <reaction-icon>images/heart.svg</reaction-icon>
+        <comment-icon>images/comment.svg</comment-icon>
+        <share-icon>images/share.png</share-icon>
+        <reactions>2.9m</reactions>
+        <comments>258</comments>
+        <shares>1.7k</shares>
+        <type>video</type>
+        <access>images/public.svg</access>
+        <time>1h</time>
+    </post>
+    <post>
         <author>Bulsu Capture</author>
         <displayPicture>images/bulsu.jpg</displayPicture>
-        <postPicture>images/batibot.jpg</postPicture>
+        <content>images/batibot.jpg</content>
         <caption>
             May we have the life that we are aiming to have. Laban lang!
         </caption>
-        <reaction-icon>images/heart.png</reaction-icon>
-        <comment-icon>images/speech-bubble.png</comment-icon>
+        <reaction-icon>images/heart-red.svg</reaction-icon>
+        <comment-icon>images/comment.svg</comment-icon>
         <share-icon>images/share.png</share-icon>
         <reactions>1.8k</reactions>
         <comments>24</comments>
         <shares>633</shares>
+        <type>picture</type>
+        <access>images/public.svg</access>
+        <time>1w</time>
     </post>
     <post>
         <author>Stoic Qoutes</author>
         <displayPicture>images/stoic.jpg</displayPicture>
-        <postPicture>images/marcus.jpg</postPicture>
-        <reaction-icon>images/heart.png</reaction-icon>
-        <comment-icon>images/speech-bubble.png</comment-icon>
+        <content>images/marcus.jpg</content>
+        <caption>
+            -Marcus Aurelius
+        </caption>
+        <reaction-icon>images/heart.svg</reaction-icon>
+        <comment-icon>images/comment.svg</comment-icon>
         <share-icon>images/share.png</share-icon>
         <reactions>1.2k</reactions>
         <comments>41</comments>
         <shares>266</shares>
+        <type>picture</type>
+        <access>images/private.svg</access>
+        <time>40s</time>
     </post>
     <post>
         <author>Boiling Waters</author>
         <displayPicture>images/boiling.jpg</displayPicture>
-        <postPicture>images/libre.jpg</postPicture>
+        <content>images/libre.jpg</content>
         <caption>
             Hey, grow up! Listen to our latest episode on 🎧 spotify.com/BoilingWatersPH
         </caption>
-        <reaction-icon>images/heart.png</reaction-icon>
-        <comment-icon>images/speech-bubble.png</comment-icon>
+        <reaction-icon>images/heart-red.svg</reaction-icon>
+        <comment-icon>images/comment.svg</comment-icon>
         <share-icon>images/share.png</share-icon>
         <reactions>2.5k</reactions>
         <comments>238</comments>
         <shares>298</shares>
+        <type>picture</type>
+        <access>images/private.svg</access>
+        <time>5m</time>
+    </post>
+    <post>
+        <author>Ser Geybin</author>
+        <displayPicture>images/geybin.jpeg</displayPicture>
+        <content>videos/geybin.mp4</content>
+        <caption>
+            LAST PART | House Tour #pangaraphousetour
+        </caption>
+        <reaction-icon>images/heart.svg</reaction-icon>
+        <comment-icon>images/comment.svg</comment-icon>
+        <share-icon>images/share.png</share-icon>
+        <reactions>402k</reactions>
+        <comments>358</comments>
+        <shares>300</shares>
+        <type>video</type>
+        <time>5d</time>
+        <access>images/public.svg</access>
     </post>
     <post>
         <author>Artruth</author>
         <displayPicture>images/artruth.jpg</displayPicture>
-        <postPicture>images/darkness.jpg</postPicture>
+        <content>images/darkness.jpg</content>
         <caption>
             @lauraklinke_art
         </caption>
-        <reaction-icon>images/heart.png</reaction-icon>
-        <comment-icon>images/speech-bubble.png</comment-icon>
+        <reaction-icon>images/heart-red.svg</reaction-icon>
+        <comment-icon>images/comment.svg</comment-icon>
         <share-icon>images/share.png</share-icon>
         <reactions>221</reactions>
         <comments>4</comments>
         <shares>8</shares>
+        <type>picture</type>
+        <access>images/public.svg</access>
+        <time>Now</time>
+    </post>
+    <post>
+        <author>Cong TV</author>
+        <displayPicture>images/cong.jpeg</displayPicture>
+        <content>videos/cong.mp4</content>
+        <caption>
+            Di ako makapaniwala sobrang tibay ng phone nato! ABANGAN ang HONOR X9b 5G sa January 12 7pm
+        </caption>
+        <reaction-icon>images/heart.svg</reaction-icon>
+        <comment-icon>images/comment.svg</comment-icon>
+        <share-icon>images/share.png</share-icon>
+        <reactions>202k</reactions>
+        <comments>558</comments>
+        <shares>150</shares>
+        <type>video</type>
+        <access>images/public.svg</access>
+        <time>7m</time>
     </post>
     <post>
         <author>Fiba</author>
         <displayPicture>images/fiba.png</displayPicture>
-        <postPicture>images/kd.jpg</postPicture>
+        <content>images/kd.jpg</content>
         <caption>
             New KD 17s are 🔥
             📸 Nike
         </caption>
-        <reaction-icon>images/heart.png</reaction-icon>
-        <comment-icon>images/speech-bubble.png</comment-icon>
+        <reaction-icon>images/heart.svg</reaction-icon>
+        <comment-icon>images/comment.svg</comment-icon>
         <share-icon>images/share.png</share-icon>
         <reactions>5.7k</reactions>
         <comments>178</comments>
         <shares>1.7k</shares>
+        <type>picture</type>
+        <access>images/public.svg</access>
+        <time>2d</time>
     </post>
 </posts>
