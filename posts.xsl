@@ -16,12 +16,12 @@
                                 LinkUp
                             </h1>
                             <div>
-                                <xsl:attribute name="style">display: flex;</xsl:attribute>
+                                <xsl:attribute name="style">display: flex; gap: 0.8rem;</xsl:attribute>
                                 <img src="images/angelo.jpg" alt="" height="40px">
                                     <xsl:attribute name="style">border-radius:50%;</xsl:attribute>
                                 </img>
                                 <p>
-                                    <xsl:attribute name="style">font-weight: 600; padding: 0 2rem 0 10px</xsl:attribute>
+                                    <xsl:attribute name="style">font-weight: 600; padding: 0 3.8rem 0 10px</xsl:attribute>
                                     Angelo
                                 </p>
                             </div>
@@ -51,7 +51,7 @@
                         </div>
                         <xsl:for-each select="posts/post">
                         <div id="content">
-                            <xsl:attribute name="style">height: 55%; width: 55%; min-width: 350px; background-color: #272829; color: white; border-radius: 1.5rem; box-shadow:3px 3px 50px rgba(0,0,0,0.1); margin-top: 1rem;</xsl:attribute>
+                            <xsl:attribute name="style">height: 55%; width: 55%; min-width: 350px; background-color: #272829; color: white; border-radius: 1.5rem; box-shadow:3px 3px 50px rgba(0,0,0,0.1); margin: 1rem 0;</xsl:attribute>
                             <div id="user-profile">
                                 <xsl:attribute name="style">display:flex; justify-content: start; align-items: start;</xsl:attribute>
                                 <img>
@@ -61,22 +61,30 @@
                                     <xsl:attribute name="style">height: 2rem; width: 2rem; padding: 1.5rem; border-radius: 50%;</xsl:attribute>
                                 </img>
                                 <div>
-                                    <xsl:attribute name="style">display:flex; flex-direction:column;</xsl:attribute>
-                                    <h4>
-                                        <xsl:value-of select="author"/>
-                                    </h4>
-                                    <p>
-                                        <xsl:attribute name="style">font-size: 0.8rem; color: #A8ABAF; position: relative; top: -1.5rem;</xsl:attribute>
-                                        <xsl:value-of select="time"/>
-                                        <img>
-                                            <xsl:attribute name="src">
-                                                <xsl:value-of select="access"/>
-                                            </xsl:attribute>
-                                            <xsl:attribute name="style">padding-left: 0.4rem; height: 0.8rem; width: 0.8rem;</xsl:attribute>
-                                        </img>
-                                    </p>
+                                    <xsl:attribute name="style">display:flex; justify-content: space-between; align-items: center; width: 100%;</xsl:attribute>
+                                    <div>
+                                        <xsl:attribute name="style">display:flex; flex-direction:column;</xsl:attribute>
+                                        <h4>
+                                            <xsl:value-of select="author"/>
+                                        </h4>
+                                        <p>
+                                            <xsl:attribute name="style">font-size: 0.8rem; color: #A8ABAF; position: relative; top: -1.5rem;</xsl:attribute>
+                                            <xsl:value-of select="time"/>
+                                            <img>
+                                                <xsl:attribute name="src">
+                                                    <xsl:value-of select="access"/>
+                                                </xsl:attribute>
+                                                <xsl:attribute name="style">padding-left: 0.4rem; height: 0.8rem; width: 0.8rem;</xsl:attribute>
+                                            </img>
+                                        </p>
+                                    </div>
+                                    <div>
+                                        <xsl:attribute name="style">align-self: start; display: flex; justify-content: center; align-items: center; gap:1rem; position: relative; top: 20px; right: 20px;</xsl:attribute>
+                                        <img src="images/ellipsis.svg" width="20px" height="20px"/>
+                                        <img src="images/close.svg" width="20px" height="20px"/>
+                                    </div>
                                 </div>
-                            </div>
+                           </div>
                             <div>
                                 <xsl:attribute name="style">width: 100%; height: 40px; display: flex; justify-content: start; align-items: center;</xsl:attribute>
                                 <h4>
